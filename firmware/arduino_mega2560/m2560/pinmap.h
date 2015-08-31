@@ -17,38 +17,38 @@
 
 #define LED_MAPPING_TABLE(_map_) \
 	\
-	_map_( A, 0, 0 ) /* ( AD0 )               Digital pin 22 */ \
-	_map_( A, 1, 0 ) /* ( AD1 )               Digital pin 23 */ \
+	_map_( A, 0, 1 ) /* ( AD0 )               Digital pin 22 */ \
+	_map_( A, 1, 1 ) /* ( AD1 )               Digital pin 23 */ \
 	_map_( A, 2, 0 ) /* ( AD2 )               Digital pin 24 */ \
-	_map_( A, 3, 0 ) /* ( AD3 )               Digital pin 25 */ \
-	_map_( A, 4, 0 ) /* ( AD4 )               Digital pin 26 */ \
-	_map_( A, 5, 0 ) /* ( AD5 )               Digital pin 27 */ \
-	_map_( A, 6, 0 ) /* ( AD6 )               Digital pin 28 */ \
-	_map_( A, 7, 0 ) /* ( AD7 )               Digital pin 29 */ \
-	_map_( C, 7, 0 ) /* ( A15 )               Digital pin 30 */ \
-	_map_( C, 6, 0 ) /* ( A14 )               Digital pin 31 */ \
-	_map_( C, 5, 0 ) /* ( A13 )               Digital pin 32 */ \
-	_map_( C, 4, 0 ) /* ( A12 )               Digital pin 33 */ \
-	_map_( C, 3, 0 ) /* ( A11 )               Digital pin 34 */ \
-	_map_( C, 2, 0 ) /* ( A10 )               Digital pin 35 */ \
-	_map_( C, 1, 0 ) /* ( A9 )                Digital pin 36 */ \
-	_map_( C, 0, 0 ) /* ( A8 )                Digital pin 37 */ \
-	_map_( D, 7, 0 ) /* ( T0 )                Digital pin 38 */ \
-	_map_( G, 2, 0 ) /* ( ALE )               Digital pin 39 */ \
-	_map_( G, 1, 0 ) /* ( RD )                Digital pin 40 */ \
-	_map_( G, 0, 0 ) /* ( WR )                Digital pin 41 */ \
-	_map_( L, 7, 0 ) /*                       Digital pin 42 */ \
-	_map_( L, 6, 0 ) /*                       Digital pin 43 */ \
-	_map_( L, 5, 0 ) /* ( OC5C )              Digital pin 44 (PWM) */ \
-	_map_( L, 4, 0 ) /* ( OC5B )              Digital pin 45 (PWM) */ \
-	_map_( L, 3, 0 ) /* ( OC5A )              Digital pin 46 (PWM) */ \
-	_map_( L, 2, 0 ) /* ( T5 )                Digital pin 47 */ \
-	_map_( L, 1, 0 ) /* ( ICP5 )              Digital pin 48 */ \
-	_map_( L, 0, 0 ) /* ( ICP4 )              Digital pin 49 */ \
-	_map_( B, 3, 0 ) /* ( MISO/PCINT3 )       Digital pin 50 (MISO) */ \
-	_map_( B, 2, 0 ) /* ( MOSI/PCINT2 )       Digital pin 51 (MOSI) */ \
-	_map_( B, 1, 0 ) /* ( SCK/PCINT1 )        Digital pin 52 (SCK) */ \
-	_map_( B, 0, 0 ) /* ( SS/PCINT0 )         Digital pin 53 (SS) */ \
+	_map_( A, 3, 1 ) /* ( AD3 )               Digital pin 25 */ \
+	_map_( A, 4, 1 ) /* ( AD4 )               Digital pin 26 */ \
+	_map_( A, 5, 1 ) /* ( AD5 )               Digital pin 27 */ \
+	_map_( A, 6, 1 ) /* ( AD6 )               Digital pin 28 */ \
+	_map_( A, 7, 1 ) /* ( AD7 )               Digital pin 29 */ \
+	_map_( C, 7, 1 ) /* ( A15 )               Digital pin 30 */ \
+	_map_( C, 6, 1 ) /* ( A14 )               Digital pin 31 */ \
+	_map_( C, 5, 1 ) /* ( A13 )               Digital pin 32 */ \
+	_map_( C, 4, 1 ) /* ( A12 )               Digital pin 33 */ \
+	_map_( C, 3, 1 ) /* ( A11 )               Digital pin 34 */ \
+	_map_( C, 2, 1 ) /* ( A10 )               Digital pin 35 */ \
+	_map_( C, 1, 1 ) /* ( A9 )                Digital pin 36 */ \
+	_map_( C, 0, 1 ) /* ( A8 )                Digital pin 37 */ \
+	_map_( D, 7, 1 ) /* ( T0 )                Digital pin 38 */ \
+	_map_( G, 2, 1 ) /* ( ALE )               Digital pin 39 */ \
+	_map_( G, 1, 1 ) /* ( RD )                Digital pin 40 */ \
+	_map_( G, 0, 1 ) /* ( WR )                Digital pin 41 */ \
+	_map_( L, 7, 1 ) /*                       Digital pin 42 */ \
+	_map_( L, 6, 1 ) /*                       Digital pin 43 */ \
+	_map_( L, 5, 1 ) /* ( OC5C )              Digital pin 44 (PWM) */ \
+	_map_( L, 4, 1 ) /* ( OC5B )              Digital pin 45 (PWM) */ \
+	_map_( L, 3, 1 ) /* ( OC5A )              Digital pin 46 (PWM) */ \
+	_map_( L, 2, 1 ) /* ( T5 )                Digital pin 47 */ \
+	_map_( L, 1, 1 ) /* ( ICP5 )              Digital pin 48 */ \
+	_map_( L, 0, 1 ) /* ( ICP4 )              Digital pin 49 */ \
+	_map_( B, 3, 1 ) /* ( MISO/PCINT3 )       Digital pin 50 (MISO) */ \
+	_map_( B, 2, 1 ) /* ( MOSI/PCINT2 )       Digital pin 51 (MOSI) */ \
+	_map_( B, 1, 1 ) /* ( SCK/PCINT1 )        Digital pin 52 (SCK) */ \
+	_map_( B, 0, 1 ) /* ( SS/PCINT0 )         Digital pin 53 (SS) */ \
 	\
 	/* end */
 
